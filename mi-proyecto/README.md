@@ -1,8 +1,9 @@
 # Plataforma Web de Gestión de Residuos
 
 ## Descripción
-Prototipo estático de la plataforma para la gestión eficiente de residuos en comunidades sustentables.  
-Esta versión es **estática**, por lo que no permite guardar ni actualizar información en tiempo real.
+Plataforma web de gestión de residuos diseñada para optimizar rutas, horarios y notificaciones de recolección.  
+Esta versión integra un prototipo interactivo con datos dinámicos básicos para pruebas iniciales.
+
 
 ## Requisitos
 - Node.js

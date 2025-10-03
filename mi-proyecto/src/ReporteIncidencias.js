@@ -1,28 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 
 function ReporteIncidencias() {
+  const [reporte, setReporte] = useState(""); // estado para el input
+  const [reportesEnviados, setReportesEnviados] = useState([]); // lista de reportes
+  const [error, setError] = useState(""); // estado para mensajes de error
+
+  const handleEnviar = () => {
+    if (!reporte.trim()) {
+      setError("El reporte no puede estar vacío");
+      return;
+    }
+    // agregar el nuevo reporte a la lista
+    setReportesEnviados([...reportesEnviados, reporte]);
+    setReporte(""); // limpiar el input
+    setError(""); // limpiar mensaje de error
+  };
+
   return (
     <div>
       <h2>Reporte de Incidencias</h2>
-      <textarea 
-        placeholder="Escribe aquí tu reporte" 
-        value="Ejemplo de incidencia: basura acumulada en la esquina de la calle X" 
-        readOnly 
+      <textarea
+        placeholder="Escribe aquí tu reporte"
+        value={reporte}
+        onChange={(e) => setReporte(e.target.value)}
       />
-      <button className="btn-incidencias" disabled>Enviar</button>
+      <br />
+      <button onClick={handleEnviar}>Enviar</button>
+      {error && <p style={{ color: "red" }}>{error}</p>}
 
       <div style={{ marginTop: "20px" }}>
-
         <h3>Reportes enviados:</h3>
-        <ul>
-          <li>1.Basura acumulada en la calle A</li>
-          <li>2.Contenedor con exceso de residuos en la calle B</li>
-          <li>3.Horario de recolección no respetado en calle C</li>
-          <li>4.Contenedor de residuos roto en la calle D</li>
-        </ul>
+        {reportesEnviados.length === 0 ? (
+          <p>No hay reportes aún.</p>
+        ) : (
+          <ul>
+            {reportesEnviados.map((r, index) => (
+              <li key={index}>{r}</li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );
 }
 
 export default ReporteIncidencias;
+
