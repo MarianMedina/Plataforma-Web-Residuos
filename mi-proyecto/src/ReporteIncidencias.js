@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function ReporteIncidencias() {
-  const [reporte, setReporte] = useState(""); // estado para el input
+  const [reporte, setReporte] = useState(""); // estado de el input
   const [reportesEnviados, setReportesEnviados] = useState([]); // lista de reportes
   const [error, setError] = useState(""); // estado para mensajes de error
 
@@ -10,7 +10,7 @@ function ReporteIncidencias() {
       setError("El reporte no puede estar vacío");
       return;
     }
-    // agregar el nuevo reporte a la lista
+    // para agregar el nuevo reporte a la lista
     setReportesEnviados([...reportesEnviados, reporte]);
     setReporte(""); // limpiar el input
     setError(""); // limpiar mensaje de error
@@ -20,7 +20,7 @@ function ReporteIncidencias() {
     <div>
       <h2>Reporte de Incidencias</h2>
       <textarea
-        placeholder="Escribe aquí tu reporte"
+        placeholder="Escribe aquí reporte. (Ej:Basura acumulada en la calle X)."
         value={reporte}
         onChange={(e) => setReporte(e.target.value)}
       />
