@@ -1,82 +1,38 @@
-/* Estilos generales */
-body {
-  font-family: 'Arial';
-  background-color: #f5f6fa;
-  margin: 0;
-  padding: 0;
-  color: #2d3436;
-}
-
 .App {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
   text-align: center;
 }
 
-h1 {
-  color: #014d98;
-  margin-bottom: 70px;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.card {
-  background: white;
-  padding: 20px;
-  margin: 20px auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px #0984e3;
-  text-align: left;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-button {
-  background-color: #0984e3;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
-  padding: 12px 17px;
-  border: none;
-  border-radius: 10px;
-  margin-top: 40px;
-  cursor: pointer;
-  font-weight: bold;
 }
 
-.btn-incidencias {
-  background-color: #0984e3;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 8px;
-  margin-top: 40px; 
-  font-weight: bold;
-  font-size: 16px;
+.App-link {
+  color: #61dafb;
 }
 
-button:hover {
-  background-color: #014d98;
-}
-
-input, textarea {
-  width: 80%;
-  padding: 10px;
-  margin-top: 10px;
-  border: 1px solid #0984e3;
-  border-radius: 2px;
-  font-size: 14px;
-}
-
-textarea {
-  min-height: 100px;
-  resize: vertical;
-  font-family: 'Arial Narrow', Arial;
-  color: #7d8285;
-}
-
-ul {
-  color: #5c95c7;
-  font-weight: bold;
-}
-
-.resultado {
-  margin-top: 15px;
-  font-weight: bold;
-  color: #5c95c7;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

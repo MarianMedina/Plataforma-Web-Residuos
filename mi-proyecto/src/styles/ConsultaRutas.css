@@ -1,0 +1,161 @@
+.max-width-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Sección informativa */
+.info-section {
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.info-section h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #1b5e20;
+}
+
+.info-section p {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+/* Formulario de búsqueda */
+.search-form-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+.form-group select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #2e7d32;
+  font-size: 0.95rem;
+  color: #1b5e20;
+  background-color: #fff;
+}
+
+/* Botón de busqueda */
+.search-button {
+  padding: 8px 20px;
+  background-color: #2FB839;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.search-button:hover {
+  background-color: #28a437;
+}
+
+/* Tabla de resultados */
+.resultados-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.resultados-container th,
+.resultados-container td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.resultados-container th {
+  background-color: #2FB839;
+  color: #fff;
+  font-weight: normal;
+}
+
+/* Etiquetas de tipo de ruta */
+.tipo-ruta.tipo-org {
+  color: black;
+  background-color: #90e893;
+  padding: 3px 6px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.tipo-ruta.tipo-inorg {
+  color: black;
+  background-color: #cac9c8;
+  padding: 3px 6px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Mensaje sin resultados */
+.sin-resultados p {
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Mapa */
+.mapa-container {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Botón de regreso */
+.back-button {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #2FB839;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.back-button:hover {
+  background-color: #28a437;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .search-form-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  .search-button {
+    width: 60%;
+  }
+}

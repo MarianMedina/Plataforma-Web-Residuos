@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "sector": "Centro",
+    "dia": "Lunes",
+    "hora": "07:00 A.m.",
+    "tipo": "Residuos Orgánicos"
+  },
+  {
+    "id": 2,
+    "sector": "Zona Norte",
+    "dia": "Martes",
+    "hora": "14:00 P.m.",
+    "tipo": "Residuos Inorgánicos"
+  },
+  {
+    "id": 3,
+    "sector": "Zona Sur",
+    "dia": "Martes",
+    "hora": "14:00 P.m.",
+    "tipo": "Residuos Inorgánicos"
+  },
+{
+    "id": 4,
+    "sector": "Centro",
+    "dia": "Jueves",
+    "hora": "12:00 Pm",
+    "tipo": "Residuos Inorgánicos"
+  },
+  {
+    "id": 5,
+    "sector": "Zona Norte",
+    "dia": "Viernes",
+    "hora": "08:00 A.m.",
+    "tipo": "Residuos Orgánicos"
+  },
+  {
+    "id": 6,
+    "sector": "Zona Sur",
+    "dia": "Sábado",
+    "hora": "15:00 P.m.",
+    "tipo": "Residuos Inorgánicos"
+  }
+
+]

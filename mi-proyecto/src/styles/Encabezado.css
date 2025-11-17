@@ -1,0 +1,42 @@
+.encabezado {
+  background-color: #2fb839; 
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  padding: 12px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  height: 80px;
+  z-index: 1000;
+  position: relative;
+  font-family: Arial, sans-serif; 
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.encabezado h1 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: left;
+  color: white;
+}
+
+.slogan {
+  margin: 0;
+  font-size: 15px;
+  color: #ffffff;
+  font-style: italic;
+  text-align: left;
+}
