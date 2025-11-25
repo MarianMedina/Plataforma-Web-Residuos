@@ -25,6 +25,7 @@
   text-align: center;
   font-size: 1rem;
   margin-bottom: 25px;
+  padding: 0 20px;
   color: #000;
 }
 
@@ -40,27 +41,26 @@
 .form-group {
   display: flex;
   flex-direction: column;
-  min-width: 180px;
 }
 
 .form-group label {
   margin-bottom: 5px;
   font-weight: bold;
-  color: #1b5e20;
+  color: #2FB839;
 }
 
 .form-group select {
   padding: 8px 12px;
   border-radius: 6px;
-  border: 1px solid #2e7d32;
-  font-size: 0.95rem;
+  border: 1px solid #2FB839;
+  font-size: 1rem;
   color: #1b5e20;
   background-color: #fff;
 }
 
 /* Botón de busqueda */
 .search-button {
-  padding: 8px 20px;
+  padding: 10px;
   background-color: #2FB839;
   color: #fff;
   border: none;
@@ -68,8 +68,8 @@
   cursor: pointer;
   font-size: 1rem;
   transition: background-color 0.3s;
-  align-self: center;
-  margin-top: 20px;
+  width: 100%;             
+  margin-top: 10px; 
 }
 
 .search-button:hover {

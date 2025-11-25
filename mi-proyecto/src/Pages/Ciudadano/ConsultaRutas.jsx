@@ -37,7 +37,7 @@ const ConsultaRutas = () => {
               value={sector}
               onChange={(e) => setSector(e.target.value)}
             >
-              <option value="">-- Selecciona una zona --</option>
+              <option value=""> *Selecciona una zona </option>
               {sectoresUnicos.map((s) => (
                 <option key={s} value={s}>
                   {s}
@@ -49,7 +49,7 @@ const ConsultaRutas = () => {
           <div className="form-group">
             <label htmlFor="dia">Día de la Semana (Opcional)</label>
             <select id="dia" value={dia} onChange={(e) => setDia(e.target.value)}>
-              <option value="">-- Selecciona un día --</option>
+              <option value=""> *Selecciona un día </option>
               <option value="Lunes">Lunes</option>
               <option value="Martes">Martes</option>
               <option value="Miércoles">Miércoles</option>
@@ -70,7 +70,7 @@ const ConsultaRutas = () => {
               <table>
                 <thead>
                   <tr>
-                    <th>Sector</th>
+                    <th>Zona</th>
                     <th>Día</th>
                     <th>Hora Aproximada</th>
                     <th>Tipo</th>

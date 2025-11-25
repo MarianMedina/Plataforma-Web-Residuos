@@ -1,0 +1,18 @@
+[
+  { "id": 1, 
+  "nombre": "Ruta Orgánica 1",
+  "descripcion": "Cobertura de la zona norte",
+  "horario": "08:00 a.m." },
+  { "id": 2, 
+  "nombre": "Ruta Inorgánica 1",
+  "descripcion": "Cobertura de la zona Sur", 
+  "hora": "10:00 a.m." },
+  {"id": 3, 
+  "nombre": "Ruta Orgánica 2",
+  "descripcion": "Cobertura de la zona Norte", 
+  "hora": "3:00 p.m." },
+  {"id": 3, 
+  "nombre": "Ruta Inorgánica 2",
+  "descripcion": "Cobertura de la zona Sur", 
+  "hora": "6:00 p.m." }
+]

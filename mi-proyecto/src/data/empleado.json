@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ruta Norte",
+    "zona": "Zona Norte",
+    "hora": "08:00 a.m.",
+    "tipo": "Orgánica"
+  },
+  {
+    "id": 2,
+    "nombre": "Ruta Sur",
+    "zona": "Zona Sur",
+    "hora": "14:00 p.m.",
+    "tipo": "Inorgánica"
+  },
+  {
+    "id": 3,
+    "nombre": "Ruta Oriente",
+    "zona": "Zona Centro",
+    "hora": "07:00 a.m.",
+    "tipo": "Mixta"
+  }
+]

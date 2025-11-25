@@ -1,0 +1,72 @@
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-family: Arial, sans-serif;
+}
+
+.form-container h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #1b5e20;
+}
+
+.input-group {
+  margin-bottom: 12px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2FB839;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #28a437;
+}
+
+.error {
+  color: #000;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  display: block;
+}
+
+.login-link,
+.toggle-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.login-link a,
+.toggle-link a {
+  color: #2FB839;
+  text-decoration: none;
+}
+
+.login-link a:hover,
+.toggle-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "ciudadano": "Juan Pérez",
+    "ubicacion": "Zona Centro",
+    "descripcion": "Basura acumulada en la esquina de la calle vidrio.",
+    "activa": true
+  },
+  {
+    "id": 2,
+    "ciudadano": "María López",
+    "ubicacion": "Zona Centro",
+    "descripcion": "Contenedor roto",
+    "activa": false
+  },
+  {
+    "id": 3,
+    "ciudadano": "Carlos Ruiz",
+    "ubicacion": "Zona Norte",
+    "descripcion": "Aceite derramado en la vía",
+    "activa": true
+  }
+]

@@ -11,7 +11,7 @@ const MenuCiudadano = () => {
   const [usuarioOpen, setUsuarioOpen] = useState(false);
 
   /* Simulacion de la cantidad de notificaciones */
-  const notificacionesPendientes = 3;
+  const notificacionesPendientes = 1;
 
   return (
     <div className="menu-ciudadano">
